@@ -1,0 +1,167 @@
+================
+(size of Data: 15 X 5)
+Sunny Hot Humid Calm Play 
+Sunny Hot Humid Windy Noplay 
+Overcast Hot Humid Calm Play 
+Rain Warm Humid Calm Play 
+Rain Cool Humid Calm Play 
+Rain Cool Dry Windy Noplay 
+Overcast Cool Dry Windy Play 
+Sunny Warm Humid Calm Noplay 
+Sunny Cool Dry Calm Play 
+Rain Warm Humid Calm Play 
+Sunny Warm Dry Windy Play 
+Overcast Warm Humid Windy Play 
+Overcast Hot Humi Calm Play 
+Rain Warm Humid Windy Noplay 
+Rain Warm Humid Breezy Noplay 
+(size: 1 X 4)
+    0     1     2     3 
+
+================
+(size of subData: 8 X 5)
+Sunny Hot Humid Calm Play 
+Overcast Hot Humid Calm Play 
+Rain Warm Humid Calm Play 
+Rain Cool Humid Calm Play 
+Sunny Warm Humid Calm Noplay 
+Sunny Cool Dry Calm Play 
+Rain Warm Humid Calm Play 
+Overcast Hot Humi Calm Play 
+(size: 1 X 3)
+    0     1     2 
+
+================
+(size of subsubData: 3 X 5)
+Sunny Hot Humid Calm Play 
+Sunny Warm Humid Calm Noplay 
+Sunny Cool Dry Calm Play 
+(size: 1 X 2)
+    1     2 
+
+================
+(size of subsubsubData: 1 X 5)
+Sunny Cool Dry Calm Play 
+(size: 1 X 1)
+    2 
+
+================
+(size of subsubsubData: 1 X 5)
+Sunny Warm Humid Calm Noplay 
+(size: 1 X 1)
+    2 
+
+================
+(size of subsubsubData: 1 X 5)
+Sunny Hot Humid Calm Play 
+(size: 1 X 1)
+    2 
+
+================
+(size of subsubData: 2 X 5)
+Overcast Hot Humid Calm Play 
+Overcast Hot Humi Calm Play 
+(size: 1 X 2)
+    1     2 
+
+================
+(size of subsubData: 3 X 5)
+Rain Warm Humid Calm Play 
+Rain Cool Humid Calm Play 
+Rain Warm Humid Calm Play 
+(size: 1 X 2)
+    1     2 
+
+================
+(size of subData: 1 X 5)
+Rain Warm Humid Breezy Noplay 
+(size: 1 X 3)
+    0     1     2 
+
+================
+(size of subData: 6 X 5)
+Sunny Hot Humid Windy Noplay 
+Rain Cool Dry Windy Noplay 
+Overcast Cool Dry Windy Play 
+Sunny Warm Dry Windy Play 
+Overcast Warm Humid Windy Play 
+Rain Warm Humid Windy Noplay 
+(size: 1 X 3)
+    0     1     2 
+
+================
+(size of subsubData: 2 X 5)
+Sunny Hot Humid Windy Noplay 
+Sunny Warm Dry Windy Play 
+(size: 1 X 2)
+    1     2 
+
+================
+(size of subsubsubData: 1 X 5)
+Sunny Warm Dry Windy Play 
+(size: 1 X 1)
+    2 
+
+================
+(size of subsubsubData: 1 X 5)
+Sunny Hot Humid Windy Noplay 
+(size: 1 X 1)
+    2 
+
+VOTE
+================
+(size of subsubData: 2 X 5)
+Overcast Cool Dry Windy Play 
+Overcast Warm Humid Windy Play 
+(size: 1 X 2)
+    1     2 
+
+================
+(size of subsubData: 2 X 5)
+Rain Cool Dry Windy Noplay 
+Rain Warm Humid Windy Noplay 
+(size: 1 X 2)
+    1     2 
+
+Wind=Calm
+   Outlook=Sunny
+      Temp=Cool
+         Play
+      Temp=Warm
+         Noplay
+      Temp=Hot
+         Play
+   Outlook=Overcast
+      Play
+   Outlook=Rain
+      Play
+Wind=Breezy
+   Noplay
+Wind=Windy
+   Outlook=Sunny
+      Temp=Warm
+         Play
+      Temp=Hot
+         Noplay
+      Temp=DEFAULT
+         Noplay
+   Outlook=Overcast
+      Play
+   Outlook=Rain
+      Noplay
+0 Sunny Hot Humid Calm Play
+1 Sunny Hot Humid Windy Noplay
+2 Overcast Hot Humid Calm Play
+3 Rain Warm Humid Calm Play
+4 Rain Cool Humid Calm Play
+5 Rain Cool Dry Windy Noplay
+6 Overcast Cool Dry Windy Play
+7 Sunny Warm Humid Calm Noplay
+8 Sunny Cool Dry Calm Play
+9 Rain Warm Humid Calm Play
+10 Sunny Warm Dry Windy Play
+11 Overcast Warm Humid Windy Play
+12 Overcast Hot Humi Calm Play
+13 Rain Warm Humid Windy Noplay
+14 Rain Warm Humid Breezy Noplay
+15 Sunny Cool Dry Windy Noplay

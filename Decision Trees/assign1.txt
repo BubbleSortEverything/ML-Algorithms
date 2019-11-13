@@ -1,0 +1,72 @@
+CS475 - Assignment 1
+(basic categorical decision trees)
+
+HomeTeachingResearchAdvisingLinksAbout
+REWARD: 150 points 
+
+DUE: Sun Feb 4 at 5pm PST
+
+TEST DATA: testDataA1.tar or testDataA1.zip
+
+the task
+Write a Python program called id3.py that builds a decision tree. Use the ID3 algorithm from the book to handle categorical data only. The code should be in Python3. I will invoke id3 to read data from standard in as done by the algorithm demonstrated in class. It takes no arguments on the command line. The algorithm is simple and recursive, but it takes some thought. IMPORTANT: your algorithm must compute information gain in the order the features were given so you always generate the same tree given the same data. The order makes a difference when you maximize the information gain by saving the first occurrence of maximum gain.
+
+input format
+The program takes a data file from standard input in this format:
+NumFeatures
+feature1 Numvalues value1 value2 value3 ...
+feature2 Numvalues value1 value2 ...
+feature3 Numvalues value1 value2 value3 value4 ...
+ ...
+Ans ans1 ans2 ans3
+Numexamples
+f1 f2 f3... ans
+f1 f2 f3... ans
+f1 f2 f3... ans
+f1 f2 f3... ans
+f1 f2 f3... ans
+f1 f2 f3... ans
+f1 f2 f3... ans
+NumFeatures is the number of features excluding the answer which must be labeled "Ans". Then comes (NumFeatures+1) lines of features value descriptions the last of which is Ans. Each line is a feature name followed by the number of values of the feature and then the strings that represent the values for the feature. For example: Temp 3 Cool Warm Hot. std::cin works well for reading these strings! These are presented in the order of the columns in the remaining data which is the training cases. The training cases begin with the number of examples followed by the examples. Here is the file for a logical xor function:
+2
+A   2 False   True
+B   2 False   True
+Ans 2 False   True
+4
+False False False
+False True  True 
+True  False True 
+True  True  False
+The test data has many more examples.
+output format
+The output is the indented tree and looks like the following for the file xor.in
+
+A=False
+   B=False
+      False
+   B=True
+      True
+A=True
+   B=False
+      True
+   B=True
+      False
+During testing you may want to print out the information gains you compute and compare them with the ones in the test data above. But for turning in your program to generate the exact indenting and exact character by character output of the expected output on the test machine. If you get it right you will get a congratulations message emailed to you. If not you will get the sdiff with the expected output.
+
+implementation
+The ID3 algorithm (p 254 in book) is recursive. It is simple and has several basic cases applied at each call the tree build routine:
+
+case 1: NOT IN BOOK: is there any data to process? (For now return Ans to the string "None".)
+case 2: does all the data supplied have the same Ans?
+case 3: ran out of features so can't ask any more questions.
+case 4: find feature F with biggest information gain. Do the recursion in the book with an edge for each feature value.
+See example outputs to see what is expected for output. Here is a template for how to organize your code and in particular get the input and output right. The test data has example outputs plus those outputs print the internal tree for your inspection.
+ IMPORTANT: when testing if gain > bestUpToNow when trying to find the largest try gain > bestUpToNow + Epsilon and put Epsilon = 1E-10 at the top. This requires the new best to be at least Epsilon bigger. If you want to test equality then test if abs(gain - other) < Epsilon . You may need one or more of these factors to make your decision tree builder robust against near equality. Note that this is not needed in general because this is a greedy algorithm and near is good enough, however we want an exact match in the testing code.
+
+submission
+Homework will be submitted as a python file ready to run from the linux shell. See homework submission page linked from the services section of the class web page. You can submit as many times as you like. The LAST file you submit BEFORE the deadline will be the one graded. For all successful submissions you will receive email at your uidaho.edu mail address giving you some automated feedback on the unpacking and compiling and running of your code on test data and possibly some other things that can be autotested.
+
+Have fun.
+
+ 
+Copyright © 2012, original design by Alpha Studio transfigured by R. Heckendorn

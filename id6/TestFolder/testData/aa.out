@@ -1,0 +1,57 @@
+================
+(size of Data: 5 X 3)
+ant dog coke 
+ant elk pepsi 
+bat dog coke 
+cow dog other 
+cow elk other 
+(size: 1 X 2)
+    0     1 
+
+================
+(size of subData: 2 X 3)
+ant dog coke 
+ant elk pepsi 
+(size: 1 X 1)
+    1 
+
+================
+(size of subsubData: 1 X 3)
+ant dog coke 
+(size: 1 X 0)
+
+
+================
+(size of subsubData: 1 X 3)
+ant elk pepsi 
+(size: 1 X 0)
+
+
+================
+(size of subData: 1 X 3)
+bat dog coke 
+(size: 1 X 1)
+    1 
+
+================
+(size of subData: 2 X 3)
+cow dog other 
+cow elk other 
+(size: 1 X 1)
+    1 
+
+ABC=ant
+   DE=dog
+      coke
+   DE=elk
+      pepsi
+ABC=bat
+   coke
+ABC=cow
+   other
+0 ant dog coke
+1 ant elk pepsi
+2 bat dog coke
+3 bat elk coke
+4 cow dog other
+5 cow elk other

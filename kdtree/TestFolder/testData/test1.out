@@ -1,0 +1,41 @@
+KDTree version of matrix
+(size of kdtree: 5 X 3)
+ant 5 2 
+bat 2 5 
+cow 5 5 
+dog 8 5 
+elk 5 7 
+
+
+SOLVE:   0.5000   1.0000 
+ANS: 1 bat   2.0000   5.0000 
+
+SOLVE:   1.5000   2.0000 
+ANS: 1 bat   2.0000   5.0000 
+
+SOLVE:   2.5000   3.0000 
+ANS: 1 bat   2.0000   5.0000 
+
+SOLVE:   5.0000   2.0000 
+ANS: 0 ant   5.0000   2.0000 
+
+SOLVE:   5.0000   3.0000 
+ANS: 0 ant   5.0000   2.0000 
+
+SOLVE:   5.0000   4.0000 
+ANS: 2 cow   5.0000   5.0000 
+
+SOLVE:   5.0000   5.0000 
+ANS: 2 cow   5.0000   5.0000 
+
+SOLVE:   5.0000   6.0000 
+ANS: 2 cow   5.0000   5.0000 
+
+SOLVE:   5.0000   7.0000 
+ANS: 4 elk   5.0000   7.0000 
+
+SOLVE:   5.0000   8.0000 
+ANS: 4 elk   5.0000   7.0000 
+
+SOLVE:   5.0000   9.0000 
+ANS: 4 elk   5.0000   7.0000 

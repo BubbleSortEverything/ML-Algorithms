@@ -1,0 +1,256 @@
+================
+(size of Data: 23 X 5)
+Overcast Cool Dry Windy Bike 
+Overcast Cold Dry Windy Hike 
+Overcast Warm Humid Windy Bike 
+Overcast Cold Humid Windy Movies 
+Rain Cool Dry Windy Hike 
+Rain Cool Humid Calm Movies 
+Rain Cold Humid Breezy Movies 
+Rain Warm Humid Breezy Hike 
+Rain Warm Humid Calm Hike 
+Rain Warm Humid Calm Movies 
+Rain Warm Humid Calm Bike 
+Rain Warm Humid Calm Movies 
+Rain Warm Humid Breezy Hike 
+Rain Warm Humid Windy Movies 
+Sunny Cool Dry Calm Bike 
+Sunny Hot Humid Calm Movies 
+Sunny Hot Humid Windy Hike 
+Overcast Hot Humid Calm Movies 
+Overcast Hot Humid Calm Movies 
+Sunny Warm Dry Windy Bike 
+Sunny Warm Humid Calm Bike 
+Sunny Warm Humid Calm Bike 
+Sunny Warm Humid Calm Bike 
+(size: 1 X 4)
+    0     1     2     3 
+
+================
+(size of subData: 3 X 5)
+Overcast Cold Dry Windy Hike 
+Overcast Cold Humid Windy Movies 
+Rain Cold Humid Breezy Movies 
+(size: 1 X 3)
+    0     2     3 
+
+================
+(size of subsubData: 1 X 5)
+Overcast Cold Dry Windy Hike 
+(size: 1 X 2)
+    0     3 
+
+================
+(size of subsubData: 2 X 5)
+Overcast Cold Humid Windy Movies 
+Rain Cold Humid Breezy Movies 
+(size: 1 X 2)
+    0     3 
+
+================
+(size of subData: 4 X 5)
+Overcast Cool Dry Windy Bike 
+Rain Cool Dry Windy Hike 
+Rain Cool Humid Calm Movies 
+Sunny Cool Dry Calm Bike 
+(size: 1 X 3)
+    0     2     3 
+
+================
+(size of subsubData: 1 X 5)
+Sunny Cool Dry Calm Bike 
+(size: 1 X 2)
+    2     3 
+
+================
+(size of subsubData: 1 X 5)
+Overcast Cool Dry Windy Bike 
+(size: 1 X 2)
+    2     3 
+
+================
+(size of subsubData: 2 X 5)
+Rain Cool Dry Windy Hike 
+Rain Cool Humid Calm Movies 
+(size: 1 X 2)
+    2     3 
+
+================
+(size of subsubsubData: 1 X 5)
+Rain Cool Dry Windy Hike 
+(size: 1 X 1)
+    3 
+
+================
+(size of subsubsubData: 1 X 5)
+Rain Cool Humid Calm Movies 
+(size: 1 X 1)
+    3 
+
+VOTE
+================
+(size of subData: 12 X 5)
+Overcast Warm Humid Windy Bike 
+Rain Warm Humid Breezy Hike 
+Rain Warm Humid Calm Hike 
+Rain Warm Humid Calm Movies 
+Rain Warm Humid Calm Bike 
+Rain Warm Humid Calm Movies 
+Rain Warm Humid Breezy Hike 
+Rain Warm Humid Windy Movies 
+Sunny Warm Dry Windy Bike 
+Sunny Warm Humid Calm Bike 
+Sunny Warm Humid Calm Bike 
+Sunny Warm Humid Calm Bike 
+(size: 1 X 3)
+    0     2     3 
+
+================
+(size of subsubData: 4 X 5)
+Sunny Warm Dry Windy Bike 
+Sunny Warm Humid Calm Bike 
+Sunny Warm Humid Calm Bike 
+Sunny Warm Humid Calm Bike 
+(size: 1 X 2)
+    2     3 
+
+================
+(size of subsubData: 1 X 5)
+Overcast Warm Humid Windy Bike 
+(size: 1 X 2)
+    2     3 
+
+================
+(size of subsubData: 7 X 5)
+Rain Warm Humid Breezy Hike 
+Rain Warm Humid Calm Hike 
+Rain Warm Humid Calm Movies 
+Rain Warm Humid Calm Bike 
+Rain Warm Humid Calm Movies 
+Rain Warm Humid Breezy Hike 
+Rain Warm Humid Windy Movies 
+(size: 1 X 2)
+    2     3 
+
+================
+(size of subsubsubData: 4 X 5)
+Rain Warm Humid Calm Hike 
+Rain Warm Humid Calm Movies 
+Rain Warm Humid Calm Bike 
+Rain Warm Humid Calm Movies 
+(size: 1 X 1)
+    2 
+
+================
+(size of subsubsubData: 4 X 5)
+Rain Warm Humid Calm Hike 
+Rain Warm Humid Calm Movies 
+Rain Warm Humid Calm Bike 
+Rain Warm Humid Calm Movies 
+(size: 1 X 0)
+
+
+VOTE
+================
+(size of subsubsubData: 2 X 5)
+Rain Warm Humid Breezy Hike 
+Rain Warm Humid Breezy Hike 
+(size: 1 X 1)
+    2 
+
+================
+(size of subsubsubData: 1 X 5)
+Rain Warm Humid Windy Movies 
+(size: 1 X 1)
+    2 
+
+VOTE
+================
+(size of subData: 4 X 5)
+Sunny Hot Humid Calm Movies 
+Sunny Hot Humid Windy Hike 
+Overcast Hot Humid Calm Movies 
+Overcast Hot Humid Calm Movies 
+(size: 1 X 3)
+    0     2     3 
+
+================
+(size of subsubData: 3 X 5)
+Sunny Hot Humid Calm Movies 
+Overcast Hot Humid Calm Movies 
+Overcast Hot Humid Calm Movies 
+(size: 1 X 2)
+    0     2 
+
+================
+(size of subsubData: 1 X 5)
+Sunny Hot Humid Windy Hike 
+(size: 1 X 2)
+    0     2 
+
+VOTE
+Temp=Cold
+   Humidity=Dry
+      Hike
+   Humidity=Humid
+      Movies
+Temp=Cool
+   Outlook=Sunny
+      Bike
+   Outlook=Overcast
+      Bike
+   Outlook=Rain
+      Humidity=Dry
+         Hike
+      Humidity=Humid
+         Movies
+   Outlook=DEFAULT
+      Bike
+Temp=Warm
+   Outlook=Sunny
+      Bike
+   Outlook=Overcast
+      Bike
+   Outlook=Rain
+      Wind=Calm
+         Movies
+      Wind=Breezy
+         Hike
+      Wind=Windy
+         Movies
+   Outlook=DEFAULT
+      Bike
+Temp=Hot
+   Wind=Calm
+      Movies
+   Wind=Windy
+      Hike
+   Wind=DEFAULT
+      Movies
+0 Overcast Cool Dry Windy Bike
+1 Overcast Cold Dry Windy Hike
+2 Overcast Hot Humid Calm Movies
+3 Overcast Hot Humid Calm Movies
+4 Overcast Warm Humid Windy Bike
+5 Overcast Cold Humid Windy Movies
+6 Rain Cool Dry Windy Hike
+7 Rain Cool Humid Calm Movies
+8 Rain Cold Humid Breezy Movies
+9 Rain Warm Humid Breezy Hike
+10 Rain Warm Humid Calm Movies
+11 Rain Warm Humid Calm Movies
+12 Rain Warm Humid Calm Movies
+13 Rain Warm Humid Calm Movies
+14 Rain Warm Humid Breezy Hike
+15 Rain Warm Humid Windy Movies
+16 Sunny Cool Dry Calm Bike
+17 Sunny Hot Humid Calm Movies
+18 Sunny Hot Humid Windy Hike
+19 Sunny Warm Dry Windy Bike
+20 Sunny Warm Humid Calm Bike
+21 Sunny Warm Humid Calm Bike
+22 Sunny Warm Humid Calm Bike
+23 Snow Hot Dry Calm Movies
+24 Snow Hot Dry Breezy Movies
+25 Snow Hot Dry Windy Hike
+26 Snow Warm Humid Breezy Bike
